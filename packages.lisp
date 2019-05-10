@@ -413,6 +413,7 @@
    #:home
    #:debug-map
    #:bandits-domain
+   #:lukurbo
    #:|1|
    #:|2|
    #:ironside
