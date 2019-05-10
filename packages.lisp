@@ -423,6 +423,10 @@
    #:bandits-entrance
    #:secret-underground
    #:pirates-cove
+   #:candle-carnival
+   #:sky-base
+   #:star-city
+   #:flying-mansion
    #:your-ship)
   (:documentation "Contains all the zone definitions in the game"))
 (uiop:define-package #:yadfa-events
