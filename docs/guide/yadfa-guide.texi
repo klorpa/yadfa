@@ -1,0 +1,62 @@
+\input texinfo
+
+@dircategory Games
+@direntry
+* Yadfa Guide: (yadfa-guide). Yadfa User Guide
+@end direntry
+@settitle Yadfa User Guide
+@copying
+Copyright @copyright{} Pouar Dragon
+
+@quotation
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the CC BY-SA 4.0 or later.
+
+@url{https://creativecommons.org/licenses/by-sa/4.0}
+@end quotation
+@end copying
+
+@titlepage
+@title Yet Another DiaperFur Adventure
+@subtitle User/Strategy Guide
+@image{title,400pt}
+@author Pouar Dragon
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+@summarycontents
+@contents
+
+@ifnottex
+@node Top
+@top Yadfa User Guide TOC
+
+@menu
+* Prerequisites::       What you need to install before playing.
+* Index::            Complete index.
+@end menu
+
+@end ifnottex
+
+@node Prerequisites
+@chapter Prerequisites
+
+This is my first attempt at a user guide, so I hope it's easy enough to understand.
+
+If you're on Windows, you'll probably need to install an X Server, as McCLIM uses it for the graphics (UNIX and Unix-like systems typically already come with one). Unless you have Cygwin installed (which most of you probably aren't going to do). The best port of X to Windows is VcXsrv.
+
+@url{https://sourceforge.net/projects/vcxsrv}
+
+Yes, it also needs to be running when you play the game.
+
+When you start up the game, you will probably be greeted with something like this
+@float Figure,fig1
+@image{fig1, 300pt}
+@end float
+@node Index
+@unnumbered Index
+
+
+@printindex cp
+@bye
